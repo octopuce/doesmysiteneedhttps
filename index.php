@@ -42,6 +42,7 @@ if (!$found) {
                 
                 <link rel="stylesheet" href="font.css">
                 <link rel="stylesheet" href="style.css">
+                <script type="text/javascript" src="script.js"></script>
         </head>
         <body>
                 <h1>
@@ -159,7 +160,7 @@ if (!$found) {
 		  Si vous avez des besoins plus spécifiques et besoin de fonctionner avec des serveurs web traditionnels, le client de l'EFF <a href="https://certbot.eff.org/">Certbot</a> sera assurément le meilleur pour vous.
                 </p>
                 <p>
-                        Il y a plein d'autres moyens de passer votre site en HTTPS sans soucis. <a href="https://dassur.ma/things/h2setup/">Das Surma propose un guide pour divers serveurs web</a> et des CDNs comme <a href="https://www.cloudflare.com">Cloudflare</a> peuvent aider à passer votre site à HTTPS pour un coût modique, voire gratuitement.
+                        Il y a plein d'autres moyens de passer votre site en HTTPS sans soucis. <a href="https://dassur.ma/things/h2setup/">Das Surma propose un guide pour divers serveurs web</a>.
                 </p>
 
                 <footer>
