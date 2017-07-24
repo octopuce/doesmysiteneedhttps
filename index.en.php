@@ -22,8 +22,8 @@
 		<meta itemprop="name" content="Does my site need HTTPS?">
 		<meta itemprop="description" content="Find out if your site needs HTTPS.">
 		
-		<script src="script.js"></script>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,600">
+		<script src="https://doesmysiteneedhttps.com/script.js"></script>
+		<link rel="stylesheet" href="font.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
