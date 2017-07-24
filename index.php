@@ -40,7 +40,7 @@ if (!$found) {
                 <meta itemprop="description" content="Découvrez si votre site web a besoin de passer à HTTPS.">
                 <meta property="og:translator" content="@laquadrature">
                 
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,600">
+                <link rel="stylesheet" href="font.css">
                 <link rel="stylesheet" href="style.css">
         </head>
         <body>
