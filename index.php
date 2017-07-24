@@ -164,7 +164,7 @@ if (!$found) {
                 </p>
 
                 <footer>
-                        &copy; 2017 DoesMySiteNeedHTTPS.com. Tous droits réservés.
+                        &copy; 2017 <a href="https://DoesMySiteNeedHTTPS.com">DoesMySiteNeedHTTPS.com</a>. Tous droits réservés. <br />Traduit avec la permission de <a href="https://twitter.com/mholt6">l'auteur</a>
                 </footer>
         </body>
 </html>
