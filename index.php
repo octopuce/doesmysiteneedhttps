@@ -1,4 +1,21 @@
-<!DOCTYPE html>
+<?php
+
+// Redirect non-french speaking people to the English version
+// (unless you put ?lang=fr at the end of the URL)
+$found=false;
+if (isset($_GET["lang"]) && $_GET["lang"]=="fr") $found=true;
+if (isset($_SERVER["HTTP_ACCEPT_LANGUAGE"])) {
+    $list=explode(",",$_SERVER["HTTP_ACCEPT_LANGUAGE"]);
+    foreach($list as $one) {
+        if (strtolower(substr(trim($one),0,2))=="fr") { $found=true; break; }
+    }
+}
+if (!$found) {
+    header("Location: https://doesmysiteneedhttps.com");
+    exit();
+}
+
+?><!DOCTYPE html>
 <html>
         <head>
                 <title>Faut-il HTTPS sur mon site&nbsp;?</title>
