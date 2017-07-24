@@ -1,0 +1,18 @@
+Some notes people from the Internet are telling me about this page :
+
+- we don't speak about DANE / TLSA
+  - yes we could (at the CAA / PKI question?)
+  - or we couldn't : nobody check those records anyway :/
+
+- shall we recommend CloudFlare, although it's a centralized web service, making the web a more dangerous place (centralisation is bad) ?
+  - yes, we could remove this
+  - maybe not, many people are using it to secure their website, ... it still enhance the safety of the web ?
+  - also, using the HTTPS provided by cloudflare doesn't remove your responsability to use https on your final webserver if you want to encrypt the stream between you and cloudflare.
+    (although cloudflare allows you to put invalid cert on your webserver, we don't need that hack anymore, right?)
+  
+
+- it's promoting Caddy Web server a tad too much, isn't it?
+  - yes, but this page have been invented by caddy webserver develloper ;)
+
+
+
