@@ -9,6 +9,8 @@ if (isset($_SERVER["HTTP_ACCEPT_LANGUAGE"])) {
     foreach($list as $one) {
         if (strtolower(substr(trim($one),0,2))=="fr") { $found=true; break; }
     }
+} else {
+    $found=true;
 }
 if (!$found) {
     header("Location: https://doesmysiteneedhttps.com");
@@ -89,7 +91,7 @@ if (!$found) {
 
                 <h2>«&nbsp;Mais les CA peuvent émettre un certificat pour mon site n'importe quand &lt;... ou tout autre râlerie contre le système des CA&gt;.&nbsp;»</h2>
                 <p>
-		  Bon... Ceci n'est pas une discussion au sujet des infrastructures à clé publique (PKI). C'est le meilleur système que nous ayons à ce jour. Faites avec et sécurisez ainsi votre site. Utilisez <a href="https://tools.ietf.org/html/rfc6844">les enregistrements CAA</a> pour restreindre encore plus quelle CA a le droit d'émettre un certificat pour votre site, et croisez les doigts et espérez que la transparence et la surveillance des autorités continue (à ce jour cela marche).
+		  Bon... Ceci n'est pas une discussion au sujet des infrastructures à clé publique (PKI). C'est le meilleur système que nous ayons à ce jour. Faites avec et sécurisez ainsi votre site. Utilisez <a href="https://tools.ietf.org/html/rfc6844">les enregistrements CAA</a> pour restreindre encore plus quelle CA a le droit d'émettre un certificat pour votre site, et croisez les doigts et espérez que la transparence et la surveillance des autorités continuent (à ce jour cela marche).
                 </p>
 
                 <h2>«&nbsp;HTTPS ne cache pas la taille du contenu, donnant des indices aux attaquants.&nbsp;»</h2>
