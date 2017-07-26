@@ -48,3 +48,12 @@ footer {
 	margin-bottom: 75px;
 	color: #777;
 }
+
+.header {
+    text-align: right;
+    width: 90%;
+}
+.header a {
+    color: #777;
+}
+
