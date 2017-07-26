@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
         <head>
                 <title>Faut-il HTTPS sur mon site&nbsp;?</title>
                 <meta charset="utf-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                <meta property="og:locale" content="fr-fr">
+                <meta property="og:locale" content="fr_FR">
                 <meta property="og:type" content="article">
                 <meta property="og:title" content="Mon site a-t-il besoin de HTTPS ?">
                 <meta property="og:description" content="Découvrez si votre site web a besoin de passer à HTTPS.">
